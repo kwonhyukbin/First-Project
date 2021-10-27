@@ -2,11 +2,11 @@ package project1;
 
 import java.util.Scanner;
 
-import project1.ver03.PhoneInfo;
-import project1.ver03.PhoneBookManager;
+import project1.ver04.PhoneInfo;
+import project1.ver04.PhoneBookManager;
 
 
-public class PhoneBookVer03
+public class PhoneBookVer04
 {
 	public static void printMenu() {
 		System.out.println("###선택하세요###");
