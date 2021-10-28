@@ -1,4 +1,4 @@
-package project1.ver07;
+package project1.ver08;
 
 import java.util.HashSet;
 import java.util.Iterator;
@@ -76,8 +76,8 @@ public class PhoneBookManager implements MenuItem, SubMenuItem
 					
 					if(obj.contains(obj2)) {
 						
-						obj.remove(obj2);
-						obj.add(obj2);
+						obj.remove(obj2);//
+						obj.add(obj2);//추가
 						System.out.println("덮어쓰기성공");
 					}
 					else {
